@@ -29,7 +29,7 @@ export function UpdateName() {
       <Button onClick={handleSubmit} disabled={isPending}>
         Update
       </Button>
-      {error && <p>{error}</p>}
+      {error && <p>{error.name}</p>}
     </div>
   );
 }
